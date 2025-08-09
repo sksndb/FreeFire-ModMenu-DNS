@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>PayloadContent</key>
+   <array>
+      <!-- Configuración DNS -->
+      <dict>
+         <key>PayloadDescription</key>
+         <string>Configura DNS personalizado</string>
+         <key>PayloadDisplayName</key>
+         <string>DNS Free Fire</string>
+         <key>PayloadIdentifier</key>
+         <string>com.tuempresa.dnsprofile</string>
+         <key>PayloadType</key>
+         <string>com.apple.dns.managed</string>
+         <key>PayloadUUID</key>
+         <string>2B3F6A9D-4C1E-4E9B-B5D3-7F91A9B1D1B9</string>
+         <key>PayloadVersion</key>
+         <integer>1</integer>
+         <key>DNSSettings</key>
+         <dict>
+            <key>ServerAddresses</key>
+            <array>
+               <string>8.8.8.8</string>
+               <string>8.8.4.4</string>
+            </array>
+         </dict>
+      </dict>
+
+      <!-- WebClip para Mod Menú -->
+      <dict>
+         <key>FullScreen</key>
+         <true/>
+         <key>Icon</key>
+         <data></data> <data>
+iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAMAAABF6TbnAAAAGXRFWHRTb2Z0d2Fy
+ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVVQTFRF////AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAEJULb0AAAAN0Uk5T/////////////////////wAl0WEbAAAAYElEQVR42uzS
+wQkAMAgEsY7P9fO7Q4HExakG4GLdUq+YdNGAAAAAAAAAAAAAABALINuBDi7IQP0X
+ip+TScbWxfuQuAvNjE7dwA2fI37GoAZfYAAAAASUVORK5CYII=
+</data>
+         <key>IsRemovable</key>
+         <true/>
+         <key>PayloadDescription</key>
+         <string>Mod Menú Free Fire</string>
+         <key>PayloadDisplayName</key>
+         <string>Mod Menú</string>
+         <key>PayloadIdentifier</key>
+         <string>com.tuempresa.modmenu.webclip</string>
+         <key>PayloadType</key>
+         <string>com.apple.webClip.managed</string>
+         <key>PayloadUUID</key>
+         <string>9E1F6D24-0E92-44A6-8B35-4B2C8F3278E3</string>
+         <key>PayloadVersion</key>
+         <integer>1</integer>
+         <key>Precomposed</key>
+         <true/>
+         <key>URL</key>
+         <string>https://sksndb.github.io/ModMenu-DNS/</string>
+      </dict>
+   </array>
+   <key>PayloadDescription</key>
+   <string>Perfil para DNS y Mod Menú Free Fire</string>
+   <key>PayloadDisplayName</key>
+   <string>Perfil Free Fire Completo</string>
+   <key>PayloadIdentifier</key>
+   <string>com.tuempresa.perfilcompleto</string>
+   <key>PayloadOrganization</key>
+   <string>Tu Empresa</string>
+   <key>PayloadRemovalDisallowed</key>
+   <false/>
+   <key>PayloadType</key>
+   <string>Configuration</string>
+   <key>PayloadUUID</key>
+   <string>6F960F3E-1F33-4F93-9D75-82D17A7F4B56</string>
+   <key>PayloadVersion</key>
+   <integer>1</integer>
+</dict>
+</plist>
